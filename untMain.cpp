@@ -32,7 +32,7 @@ void __fastcall TfrmMain::btnCloseClick(TObject *Sender)
 void __fastcall TfrmMain::btnOneClick(TObject *Sender)
 {
     memOne->Text = edtOne->Text;
-    edtOne->Text = "Al Pacino";
+    edtOne->Text = "Robert De Nero";
     NewFunction();
 }
 //---------------------------------------------------------------------------
