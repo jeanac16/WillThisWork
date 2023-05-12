@@ -37,6 +37,7 @@ __published:	// IDE-managed Components
 	void __fastcall btnOOPClick(TObject *Sender);
 	void __fastcall btnFileViewerClick(TObject *Sender);
 
+
 private:	// User declarations
     void __fastcall NewFunction();
     void __fastcall SomeVectorRelatedEx();
