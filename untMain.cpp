@@ -124,7 +124,7 @@ void __fastcall TfrmMain::Button1Click(TObject *Sender)
     AnsiString lName("Abou-Chaker");
     AppendStr(fName, lName);
 
-    AnsiString cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+    AnsiString cars[4] = {"Volvo", "BMW", "Ford", "Lexus"};
     DoSomething(cars);
 
     AppendToMemo(fName);
@@ -271,7 +271,7 @@ int __fastcall TfrmMain::HowManyContinuence(int A[], int iSize)
     char Faculty[]("Computer sciences");
 */
 
-   // sprintf(buff, ì%d + %d = %dî, x, y, x + y);
+   // sprintf(buff, ‚Äú%d + %d = %d‚Äù, x, y, x + y);
 
     /*
        Boolean Result = SameText(Password1, Password2);
