@@ -1,0 +1,8 @@
+# ignore all .txt files
+*.txt
+# ignore all .xml files
+*.xml
+# ignore some folders
+Win32/
+Win64/
+__*/

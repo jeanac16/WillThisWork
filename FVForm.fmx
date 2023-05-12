@@ -1,0 +1,42 @@
+object frmFileViewer: TfrmFileViewer
+  Left = 0
+  Top = 0
+  Caption = 'File Viewer'
+  ClientHeight = 401
+  ClientWidth = 578
+  Position = OwnerFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  inline MyFrame11: TMyFrame1
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    inherited btnDrives: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 16.000000000000000000
+    end
+  end
+  object memDrive: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 8.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 562.000000000000000000
+    Size.Height = 297.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 562.000000000000000000
+    Viewport.Height = 297.000000000000000000
+  end
+  object btnShow: TButton
+    Position.X = 490.000000000000000000
+    Position.Y = 66.000000000000000000
+    TabOrder = 2
+    Text = 'Show It'
+    OnClick = btnShowClick
+  end
+end

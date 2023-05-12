@@ -1,0 +1,89 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'The Main Form'
+  ClientHeight = 418
+  ClientWidth = 573
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnOne: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    TabOrder = 2
+    Text = 'Click Me'
+    OnClick = btnOneClick
+    object memOne: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Position.X = 88.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 179.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Viewport.Width = 433.000000000000000000
+      Viewport.Height = 179.000000000000000000
+    end
+    object Button2: TButton
+      Position.Y = 60.000000000000000000
+      TabOrder = 5
+      Text = 'Button2'
+      OnClick = Button2Click
+    end
+  end
+  object edtOne: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 96.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    object edtTwo: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Position.X = 232.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object btnClose: TButton
+    Position.X = 473.000000000000000000
+    Position.Y = 376.000000000000000000
+    TabOrder = 0
+    Text = '&Close'
+    OnClick = btnCloseClick
+  end
+  object Button1: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 38.000000000000000000
+    TabOrder = 4
+    Text = 'Button1'
+    OnClick = Button1Click
+    object CleanMemo: TButton
+      Position.X = 529.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      OnClick = CleanMemoClick
+      object btnOOP: TButton
+        Position.X = -529.000000000000000000
+        Position.Y = 60.000000000000000000
+        TabOrder = 4
+        Text = 'Using OOP'
+        OnClick = btnOOPClick
+        object btnFileViewer: TButton
+          Position.Y = 96.000000000000000000
+          TabOrder = 4
+          Text = 'File Viewer'
+          OnClick = btnFileViewerClick
+        end
+      end
+    end
+  end
+end
