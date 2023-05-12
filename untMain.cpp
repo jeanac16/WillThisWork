@@ -31,12 +31,8 @@ void __fastcall TfrmMain::btnCloseClick(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TfrmMain::btnOneClick(TObject *Sender)
 {
-    //TStatusPanel * pnlItem = new TStatusPanel(sbMain->Panels);
-    sbMain-> Panels->Add();
-    sbMain->Panels[0]->Text = "memo = edit1 content. edit 1 'Johnny'. Call new function";
-
     memOne->Text = edtOne->Text;
-    edtOne->Text = "Johnny";
+    edtOne->Text = "Johnny Abou-Chaker";
     NewFunction();
 }
 //---------------------------------------------------------------------------
@@ -363,3 +359,4 @@ void __fastcall TfrmMain::btnFileViewerClick(TObject *Sender)
 	frmFileViewer->ShowModal();
 }
 //---------------------------------------------------------------------------
+

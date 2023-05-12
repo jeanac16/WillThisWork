@@ -27,8 +27,6 @@ __published:	// IDE-managed Components
 	TButton *CleanMemo;
 	TButton *btnOOP;
 	TButton *btnFileViewer;
-	TStatusBar *sbMain;
-	TPanel *Panel1;
 	void __fastcall btnCloseClick(TObject *Sender);
 	void __fastcall btnOneClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
