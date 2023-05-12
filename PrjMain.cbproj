@@ -196,9 +196,7 @@
             <DependentOn>FVForm.h</DependentOn>
             <BuildOrder>5</BuildOrder>
         </CppCompile>
-        <None Include="MyTestLater.xml">
-            <ModuleName>Untitled1</ModuleName>
-        </None>
+        <None Include="MyTestLater.xml"/>
         <CppCompile Include="PrjMain.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
@@ -223,9 +221,9 @@
             <DependentOn>untMain.h</DependentOn>
             <BuildOrder>1</BuildOrder>
         </CppCompile>
+        <FormResources Include="uFrame1.fmx"/>
         <FormResources Include="untMain.fmx"/>
         <FormResources Include="FVForm.fmx"/>
-        <FormResources Include="uFrame1.fmx"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
