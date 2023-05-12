@@ -31,6 +31,7 @@ void __fastcall TfrmMain::btnCloseClick(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TfrmMain::btnOneClick(TObject *Sender)
 {
+    //sbMain->Panel1->Text = "memo = edit1 content. edit 1 'Johnny'. Call new function";
     memOne->Text = edtOne->Text;
     edtOne->Text = "Johnny";
     NewFunction();
