@@ -46,7 +46,7 @@ void __fastcall TfrmMain::NewFunction() {
         AppendToMemo("yes, edtOne is equal to edtTwo... No Case Sensitive.");
     }else {
 		//ShowMessage("Nope they are NOT.");
-        AppendToMemo("No, the two edt fields are not the same.");
+        AppendToMemo("No, the two Edit fields are not the same.");
     }
 
     AnsiString Country("United States of America");
