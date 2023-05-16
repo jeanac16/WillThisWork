@@ -36,7 +36,7 @@ __published:	// IDE-managed Components
 	void __fastcall btnFileViewerClick(TObject *Sender);
 
 
-private:	// User declarations
+private:	// Private User declarations
     void __fastcall NewFunction();
     void __fastcall SomeVectorRelatedEx();
 
@@ -45,7 +45,7 @@ private:	// User declarations
     int  __fastcall FindFirstMissingInt(int A[], int iSize);
     int __fastcall HowManyContinuence(int A[], int iSize);
 
-public:		// User declarations
+public:		// Public User declarations
 	__fastcall TfrmMain(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
